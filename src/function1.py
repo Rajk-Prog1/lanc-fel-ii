@@ -1,5 +1,35 @@
 input_string = open('input_string.txt').read()[:-1]
 
 def function1(input_string: str) -> str:
-    """Write your code here"""
+    pelda = input_string.split("")
+    pelda.remove("a")
+    pelda.remove("b")
+    pelda.remove("c")
+    pelda.remove("d")
+    pelda.remove("e")
+    pelda.remove("f")
+    pelda.remove("g")
+    pelda.remove("h")
+    pelda.remove("i")
+    pelda.remove("j")
+    pelda.remove("k")
+    pelda.remove("l")
+    pelda.remove("m")
+    pelda.remove("n")
+    pelda.remove("o")
+    pelda.remove("p")
+    pelda.remove("q")
+    pelda.remove("r")
+    pelda.remove("s")
+    pelda.remove("t")
+    pelda.remove("u")
+    pelda.remove("v")
+    pelda.remove("w")
+    pelda.remove("x")
+    pelda.remove("y")
+    pelda.remove("z")
+    peldaa = "".join(pelda)
+
+    return(peldaa)
+
     pass
