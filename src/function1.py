@@ -30,9 +30,6 @@ def function1(input_string: str) -> str:
     txt = txt.replace("y", "")
     txt = txt.replace("z", "")
 
-    print(txt)
     return(txt)
   
     pass
-
-function1("ABCabc@&łŁ")
