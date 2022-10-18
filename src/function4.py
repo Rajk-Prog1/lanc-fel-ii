@@ -1,6 +1,8 @@
 def function4(input_int1: int, input_int2: int) -> int:
-    for x in range (0, input_int1):
-        if (input_int1 - x) % x == 0 and (input_int2 - x) % x == 0:
-            return(input_int1 - x)
+    maxi = 1
+    for i in range(2, input_int1):
+        if input_int1 % i == 0 and input_int2 % i == 0:
+            maxi = i
+    return maxi
 
-            
+function4(12, 42)
